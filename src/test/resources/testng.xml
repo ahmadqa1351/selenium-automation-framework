@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Test Suite" parallel="methods" thread-count="4" verbose="2">
+    <parameter name="browser" value="chrome" />
+    <parameter name="environment" value="qa" />
+
+    <!-- Smoke Tests -->
+    <test name="Smoke Tests" enabled="true">
+        <groups>
+            <run>
+                <include name="smoke" />
+            </run>
+        </groups>
+        <packages>
+            <package name="com.qa.tests.smoke.*" />
+        </packages>
+    </test>
+
+    <!-- Regression Tests -->
+    <test name="Regression Tests" enabled="true">
+        <groups>
+            <run>
+                <include name="regression" />
+            </run>
+        </groups>
+        <packages>
+            <package name="com.qa.tests.regression.*" />
+        </packages>
+    </test>
+
+    <!-- E2E Tests -->
+    <test name="End-to-End Tests" enabled="true">
+        <groups>
+            <run>
+                <include name="e2e" />
+            </run>
+        </groups>
+        <packages>
+            <package name="com.qa.tests.e2e.*" />
+        </packages>
+    </test>
+
+    <listeners>
+        <listener class-name="com.qa.framework.listeners.TestListener" />
+    </listeners>
+</suite>

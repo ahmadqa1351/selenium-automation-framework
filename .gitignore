@@ -1,0 +1,60 @@
+# Build Output
+target/
+build/
+*.class
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+.gradle/
+.m2/
+
+# Test Reports
+reports/
+logs/
+*.log
+test-output/
+
+# Screenshots
+**/*.png
+**/*.jpg
+**/*.jpeg
+
+# Environment
+.env
+.env.local
+*.properties.local
+
+# Node
+node_modules/
+npm-debug.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Docker
+*.dockerignore
+
+# Miscellaneous
+.gradle
+.idea
+*.iml
+out/
+local.properties
