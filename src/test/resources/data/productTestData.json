@@ -1,0 +1,27 @@
+[
+  {
+    "productName": "Sauce Labs Backpack",
+    "quantity": 1,
+    "expectedPrice": "$29.99"
+  },
+  {
+    "productName": "Sauce Labs Bike Light",
+    "quantity": 2,
+    "expectedPrice": "$9.99"
+  },
+  {
+    "productName": "Sauce Labs Bolt T-Shirt",
+    "quantity": 1,
+    "expectedPrice": "$15.99"
+  },
+  {
+    "productName": "Sauce Labs Fleece Jacket",
+    "quantity": 1,
+    "expectedPrice": "$49.99"
+  },
+  {
+    "productName": "Sauce Labs Onesie",
+    "quantity": 2,
+    "expectedPrice": "$7.99"
+  }
+]
